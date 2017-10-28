@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    border:0px;
+}
+.wrapper{
+    width:1226px;
+    margin:0 auto;
+}
