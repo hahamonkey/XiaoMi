@@ -129,9 +129,9 @@
     overflow: hidden;
     background: #fff;
 }
-.menu-item a:first-child:hover+.sub-menu{
+.header-menu .menu-item:hover .sub-menu{
     display:block;
-    animation: slide 0.4s ease-out forwards;
+    animation:slide 0.4s ease-out forwards;
 }
 @keyframes slide{
     100%{
@@ -228,5 +228,8 @@
 }
 .search:hover .search-btn{
     border:1px solid rgba(0,0,0,0.4);
+}
+.search .search-btn:hover{
+    border:0px;
 }
 /*header ½áÊø*/
